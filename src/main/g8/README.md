@@ -1,15 +1,7 @@
 # $name$
 
-*add project short description*
+*здесь нужно добавить краткое описание проекта*
 
-## Accessing the library
+## Документация
 
-*How to access the code*
-
-## Documentation
-
-*A link to the documentation*
-
-## How to contribute
-
-*How others can contribute to the project*
+*Ссылка на документацию*
