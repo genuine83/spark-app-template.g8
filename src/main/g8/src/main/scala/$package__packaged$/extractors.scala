@@ -11,6 +11,6 @@ object extractors extends SparkSessionWrapper {
       .option("header", header)
       .option("sep", separator)
       .option("inferSchema", inferSchema)
-      .load("titanic.csv")
+      .load(filePath)
   }
 }
