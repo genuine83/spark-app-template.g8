@@ -25,7 +25,7 @@ class FunctionsSpec
 
       val df = data
         .toDF("some_num", "expected")
-        .withColumn("actual", functions.isEven(col("some_num")))
+        .withColumn("actual", utils.isEven(col("some_num")))
 
       assertColumnEquality(df, "actual", "expected")
 

@@ -23,7 +23,7 @@ class TransformsSpec
         ("luisa")
       ).toDF("name")
 
-      val actualDF = sourceDF.transform(transforms.happyData())
+      val actualDF = sourceDF.transform(transformers.happyData())
 
       val expectedData = List(
         Row("jose", "data is fun"),
