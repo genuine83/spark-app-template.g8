@@ -8,9 +8,9 @@ object extractors extends SparkSessionWrapper {
               separator: String = ",",
               inferSchema: Boolean = true): DataFrame = {
     spark.read.format("csv")
-      .option("header", s"$header")
+      .option("header", header)
       .option("sep", separator)
-      .option("inferSchema", s"$inferSchema")
+      .option("inferSchema", inferSchema)
       .load("titanic.csv")
   }
 }
