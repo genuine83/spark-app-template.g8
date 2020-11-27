@@ -1,4 +1,4 @@
-package ru.beeline.spark.etl.project
+package $package$
 
 object loaders {
 
