@@ -11,7 +11,6 @@ libraryDependencies += "org.apache.spark" %% "spark-sql" % sparkVersion % "compi
 libraryDependencies += "org.apache.spark" %% "spark-hive" % sparkVersion % "compile"
 libraryDependencies += "org.apache.spark" %% "spark-core" % sparkVersion % "compile"
 libraryDependencies += "com.typesafe" % "config" % typeSafeVersion
-libraryDependencies += "com.github.mrpowers" %% "spark-daria" % "0.38.2"
 libraryDependencies += "com.github.mrpowers" %% "spark-fast-tests" % "0.21.3" % "test"
 libraryDependencies += "org.scalatest" %% "scalatest" % scalaTestVersion % "test"
 
