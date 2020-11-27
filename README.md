@@ -8,7 +8,6 @@
 2. Запустить мастер создания проекта: `sbt new genuine83/spark-sbt.g8`
 3. Заполнить в командной строке свойства проекта
 4. Запустить тесты, чтобы убедиться, что проект был создан корректно. Перейти `cd` в корень проекта и запустить `sbt test`.
-5. (необязательно) запустить консольные скрипты для добавления файла log4j.properties и дополнительных параметров в файл `build.sbt`.
 **Важно**: Для приложений на Spark 2 используем Scala 2.11, а для Spark 3 - Scala 2.12.
 
 ## Параметры проекта
@@ -19,13 +18,15 @@
 **package (по умолчанию: ru.beeline.spark.etl.project)**
 Пакет верхнего уровня.  В принципе можно не менять, по умолчанию идет наш.
 
-**scalaVersion (default: 2.11.12)**
+## Версии зависимостей по умолчанию
 
-**sparkVersion (default: 2.3.2)**
+* **scalaVersion (default: 2.11.12)**
+* **sparkVersion (default: 2.3.2)**
+* **typeSafeVersion (default: 1.4.1)**
+* **scalaTestVersion (default: 3.0.1)**
+* **sbtVersion (default: 1.4.3)**
+* **version (default: 0.0.1)**
 
-**sbtVersion (default: 1.4.3)**
-
-**version (default: 0.0.1)**
 
 ## Возможные проблемы и их решения
 
